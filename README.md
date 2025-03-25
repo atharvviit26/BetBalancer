@@ -13,7 +13,8 @@ To solve this **real-life problem**, I built this **responsive and user-friendly
   - **Amount to Invest in Team A & Team B**  
   - **Maximum Possible Profit**  
   - **Maximum Possible Loss**  
-- **Responsive & User-Friendly Interface**: The website is designed to work seamlessly across different devices, ensuring a smooth user experience.  
+- **Responsive & User-Friendly Interface**: The website is designed to work seamlessly across different devices, ensuring a smooth user experience.
+![image](https://github.com/user-attachments/assets/f9839cd9-0177-408a-8611-da9e328c7ad5)
 - **Real-Life Problem Solving**: This project addresses a **genuine challenge** faced by betting enthusiasts by simplifying complex calculations into a **one-click solution**.  
 
 ## **Disclaimer**  
