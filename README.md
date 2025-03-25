@@ -1,5 +1,6 @@
 
-# IPL Betting Investment Calculator  
+
+# BetBalancer - Perfect balance between risk and reward 
 
 ## Introduction  
 Hi everyone, I’m **Atharv**, and I created this project to help optimize investments in IPL betting on platforms like Stake. The idea for this project came from my close friend **Pranav Pharande**, who uses a strategic approach to minimize losses and maximize profits while betting. However, calculating the optimal amount to invest in each team manually can be time-consuming.  
