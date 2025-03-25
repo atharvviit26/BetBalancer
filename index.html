@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="home">
+        <div class="inputTable">
+            <h2>TeamA : <input type="number" value=2 id="rateA"> </h2>
+            <h2>TeamB : <input type="number" value=2 id="rateB"> </h2> <br>   
+            <button id="submit" name="submit" class="submit" type="submit" onclick="clickFn()">submit</button>
+        
+        <br><br>
+        <div class="outputTable">
+            <h2>Summary Table</h2>
+            <table>
+                <tr>
+                    <th>Total Investment</th>
+                    <th><p id="investment">2175</p></th>
+                </tr>
+                <tr>
+                    <td>Team A</td>
+                    <td><p id="teamA">1087.5</p></td>
+                </tr>
+                <tr>
+                    <td>Team B</td>
+                    <td><p id="teamB">1087.5</p></td>
+                </tr>
+                <tr>
+                    <td>Max Profit</td>
+                    <td><p id="maxProfit">2175</p></td>
+                </tr>
+                <tr>
+                    <td>Max Loss</td>
+                    <td><p id="maxLoss">0</p></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
