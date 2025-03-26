@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,17 +7,13 @@
     <title>BetBalancer</title>
 </head>
 <body>
-    <button class="toggle-btn" onclick="toggleTheme()">Toggle Theme</button>
-
     <div class="home">
         <div class="inputTable">
-            <h2>Team A: <input type="number" value="2" id="rateA"></h2>
-            <h2>Team B: <input type="number" value="2" id="rateB"></h2>
-            <h2>USD : <input type="number" value=85 id="USD"> </h2> <br>
-            <br>
-            <button id="submit" name="submit" class="submit" type="submit" onclick="clickFn()">Submit</button>
-        </div>
-
+            <h2>TeamA : <input type="number" value=2 id="rateA"> </h2>
+            <h2>TeamB : <input type="number" value=2 id="rateB"> </h2>   
+            <h2>USD : <input type="number" value=85 id="usd"> </h2> <br>   
+            <button id="submit" name="submit" class="submit" type="submit" onclick="clickFn()">submit</button>
+        
         <br><br>
         <div class="outputTable">
             <h2>Summary Table</h2>
@@ -46,7 +41,7 @@
             </table>
         </div>
     </div>
-
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
