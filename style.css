@@ -1,14 +1,14 @@
 /* Reset default margin and padding */
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: #1e1e2f;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,261 +19,67 @@ body {
 .home {
     width: 80vw;
     max-width: 800px;
-    background: #1e1e1e;
+    background: #2a2a3a;
     border-radius: 15px;
     padding: 30px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
 .inputTable h2 {
     margin-bottom: 15px;
-    color: #ffcc00;
 }
 
 input[type="number"] {
-    width: 100px;
-    padding: 10px;
+    width: 80px;
+    padding: 8px;
     margin-left: 10px;
-    border: 2px solid #ffcc00;
+    border: none;
     border-radius: 5px;
-    background: #222;
-    color: #e0e0e0;
-    text-align: center;
-    font-size: 16px;
+    background: #444;
+    color: white;
 }
 
 .submit {
     margin-top: 20px;
-    padding: 12px 24px;
-    background: #ff7b00;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.submit:hover {
-    background: #cc6400;
-    transform: scale(1.05);
-}
-
-.outputTable {
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background: #1a1a1a;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.outputTable h2 {
-    color: #ffcc00;
-}
-
-.outputTable table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #222;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.outputTable th, .outputTable td {
-    padding: 14px;
-    border: 1px solid #444;
-    text-align: center;
-}
-
-.outputTable th {
-    background: #333;
-    color: #ffcc00;
-}
-
-.outputTable td p {
-    margin: 0;
-    font-weight: bold;
-    color: #ffcc00;
-} 
- */
-
- /* Reset default margin and padding */
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    transition: background 0.3s ease, color 0.3s ease;
-}
-
-body {
-    background-color: #121212;
-    color: #e0e0e0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 20px;
-    flex-direction: column;
-}
-
-.home {
-    width: 80vw;
-    max-width: 800px;
-    background: #1e1e1e;
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-.inputTable h2 {
-    margin-bottom: 15px;
-    color: #ffcc00;
-}
-
-input[type="number"] {
-    width: 100px;
-    padding: 10px;
-    margin-left: 10px;
-    border: 2px solid #ffcc00;
-    border-radius: 5px;
-    background: #222;
-    color: #e0e0e0;
-    text-align: center;
-    font-size: 16px;
-}
-
-.submit {
-    margin-top: 20px;
-    padding: 12px 24px;
-    background: #ff7b00;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.submit:hover {
-    background: #cc6400;
-    transform: scale(1.05);
-}
-
-.outputTable {
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    background: #1a1a1a;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.outputTable h2 {
-    color: #ffcc00;
-}
-
-.outputTable table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #222;
-    border-radius: 10px;
-    color: white;
-    overflow: hidden;
-}
-
-.outputTable th, .outputTable td {
-    padding: 14px;
-    border: 1px solid #444;
-    text-align: center;
-}
-
-.outputTable th {
-    background: #333;
-    color: #ffcc00;
-}
-
-.outputTable td p {
-    margin: 0;
-    font-weight: bold;
-    color: #ffcc00;
-}
-
-/* Toggle Button Styling */
-.toggle-btn {
-    margin: 20px;
     padding: 10px 20px;
-    background: #ffcc00;
+    background: #ff7b00;
     border: none;
-    border-radius: 8px;
-    color: #333;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.toggle-btn:hover {
-    background: #e6b800;
-    transform: scale(1.05);
-}
-
-/* Light Theme */
-.light-theme {
-    background-color: #f8f9fa;
-    color: #000000;
-}
-
-.light-theme .home {
-    background: #ffffff;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.light-theme .inputTable h2 {
-    color: #007bff;
-}
-
-.light-theme input[type="number"] {
-    border: 2px solid #007bff;
-    background: #ffffff;
-    color: #333;
-}
-
-.light-theme .submit {
-    background: #007bff;
-}
-
-.light-theme .submit:hover {
-    background: #0056b3;
-}
-
-.light-theme .outputTable {
-    background: #f1f1f1;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.light-theme .outputTable h2 {
-    color: #007bff;
-}
-
-.light-theme .outputTable th {
-    background: #f8f9fa;
-    color: #007bff;
-}
-
-.light-theme .outputTable td p {
-    color: #fffdfd;
-}
-
-.light-theme .toggle-btn {
-    background: #007bff;
+    border-radius: 5px;
     color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
-.light-theme .toggle-btn:hover {
-    background: #0056b3;
+.submit:hover {
+    background: #cc6400;
 }
 
+.outputTable {
+    margin-top: 20px;
+}
+
+.outputTable table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.outputTable th, .outputTable td {
+    padding: 12px;
+    border: 1px solid #555;
+    text-align: center;
+}
+
+.outputTable th {
+    background: #444;
+}
+
+.outputTable td p {
+    margin: 0;
+    font-weight: bold;
+    color: #ffcc00;
+}
