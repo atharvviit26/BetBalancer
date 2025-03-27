@@ -1,59 +1,68 @@
 
-# **BetBalancer - Perfect Balance Between Risk and Reward**  
+# **BetBalancer: Optimal Risk-Reward Calculator**  
+*A data-driven tool to balance investments based on probabilistic outcomes*  
 
-## **Introduction**  
-Hi everyone, I’m **Atharv Sawant**, and I created this project to **optimize investments in IPL betting** on platforms like **Stake**. The idea for this project came from my close friend **Pranav Pharande**, who follows a **strategic approach** to minimize losses and maximize profits while betting. However, manually calculating the optimal investment for each team can be **time-consuming and error-prone**.  
+## **📌 Introduction**  
+**BetBalancer** is a web-based optimization tool that calculates the ideal investment distribution between two outcomes to **minimize losses** and **maximize profits** under given constraints. Originally designed for strategic betting scenarios (like IPL matches), its core algorithm can be adapted for **financial hedging, stock arbitrage, or decision-making under uncertainty**.  
 
-To **solve this real-life problem**, I built a **responsive and user-friendly** web tool that allows users to simply **enter the current betting odds for both teams**. The tool then **automatically computes the optimal investment amounts**, helping users make **data-driven decisions** to minimize potential losses and maximize potential profits.  
-
----
-
-## **Features**  
-✅ **Automated Calculation**: Enter the current betting prices, and the tool instantly computes **how much to invest in each team**.  
-
-✅ **Summary Table**: Displays key financial metrics, including:  
-   - **Total Investment**  
-   - **Optimal Investment Amount for Team A & Team B**  
-   - **Maximum Possible Profit**  
-   - **Maximum Possible Loss**  
-
-✅ **Responsive & User-Friendly Interface**:  
-   - The website is designed to work **seamlessly across different devices**, ensuring a smooth user experience.
-   - ![image](https://github.com/user-attachments/assets/775a8ee9-69fd-4872-9683-2802c573ae6c)
-
-
-✅ **Real-Life Problem Solving**:  
-   - This project addresses a **real challenge** faced by betting enthusiasts by **simplifying complex probability calculations** into a **one-click solution**.  
+### **🤔 Why This Project?**  
+- Solves a **real-world optimization problem** using probability and financial logic.  
+- Demonstrates how **data-driven decisions** outperform emotional/impulsive choices.  
+- **Educational value**: Teaches risk management, JavaScript calculations, and responsive UI design.  
 
 ---
 
-## **Winning & Losing Scenarios Table**  
+## **✨ Features**  
+✔ **Automated Investment Calculator**  
+   - Input odds for two options, and the tool computes the optimal investment split.  
 
-| Team A Wins | Team B Wins | Team A Hits 6 | Team B Hits 6 | Outcome |
-|------------|------------|--------------|--------------|---------|
-| ✅        | ❌        | ❌          | ✅          | ✅ Win  |
-| ❌        | ✅        | ✅          | ❌          | ✅ Win  |
-| ✅        | ❌        | ✅          | ✅          | ✅ Win  |
-| ❌        | ✅        | ✅          | ✅          | ✅ Win  |
-| ✅        | ❌        | ❌          | ❌          | ❌ Lose |
-| ❌        | ✅        | ❌          | ❌          | ❌ Lose |
-| ✅        | ❌        | ✅          | ❌          | ❌ Lose |
-| ❌        | ✅        | ❌          | ✅          | ❌ Lose |
+✔ **Risk Analysis Dashboard**  
+   - Displays key metrics:  
+     - **Total Investment**  
+     - **Optimal Split (Team A vs. Team B)**  
+     - **Max Profit**  
+     - **Max Loss**  
 
-### **Explanation:**  
-- ✅ (True) and ❌ (False) represent match results and sixes hit by teams.  
-- **Winning Conditions (✅ Win)**:  
-  - **Team A wins & Team B hits 6**  
-  - **Team B wins & Team A hits 6**  
-  - **Both teams hit 6 (Regardless of match result)**  
-- **Losing Conditions (❌ Lose)**:  
-  - **Team A wins & Team B does NOT hit 6**  
-  - **Team B wins & Team A does NOT hit 6**  
-  - **Neither team hits a 6 (Regardless of match result)**  
+✔ **Scenario Modeling**  
+   - Covers all winning/losing conditions (see table below).  
+
+✔ **Responsive Design**  
+   - Works seamlessly on desktop and mobile.
+   -  ![image](https://github.com/user-attachments/assets/775a8ee9-69fd-4872-9683-2802c573ae6c)
 
 ---
 
-## **Disclaimer**  
-🚨 **This project is purely for educational and personal use.** I do **not encourage betting** or investment in any form. If you choose to use this tool, you do so **at your own risk**. **Always gamble responsibly!**  
+## **📊 Winning/Losing Scenarios**  
+| Team A Wins | Team B Wins | Team A Hits 6 | Team B Hits 6 | Outcome  |  
+|-------------|-------------|---------------|---------------|----------|  
+| ✅          | ❌          | ❌            | ✅            | **Win**  |  
+| ❌          | ✅          | ✅            | ❌            | **Win**  |  
+| ✅          | ❌          | ✅            | ✅            | **Win**  |  
+| ❌          | ✅          | ✅            | ✅            | **Win**  |  
+| ✅          | ❌          | ❌            | ❌            | **Lose** |  
+| ❌          | ✅          | ❌            | ❌            | **Lose** |  
+| ✅          | ❌          | ✅            | ❌            | **Lose** |  
+| ❌          | ✅          | ❌            | ✅            | **Lose** |  
+
+### **Key Rules**  
+- **Win Conditions**:  
+  - Either team wins **AND** the opposing team hits a 6.  
+  - Both teams hit 6s (regardless of match result).  
+- **Lose Conditions**:  
+  - A team wins but the opponent **doesn’t** hit a 6.  
+  - Neither team hits a 6.  
 
 ---
+
+### **Tech Stack**  
+- **Frontend**: HTML, CSS, JavaScript  
+- **Logic**: Probability-based arbitrage calculation.  
+
+---
+
+## **🚨 Ethical Note**  
+⚠️ **Disclaimer**: This project is **for educational purposes only**. It demonstrates:  
+- How **mathematical models** optimize decisions.  
+- The importance of **risk assessment** in finance/gaming.  
+- **No endorsement of gambling**—always gamble responsibly if legally permissible.  
+
