@@ -83,3 +83,25 @@ input[type="number"] {
     font-weight: bold;
     color: #ffcc00;
 }
+
+/* Open Stake Button Styling */
+.stake-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #ff7b00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+}
+
+.stake-btn:hover {
+    background: #cc6400;
+    transform: scale(1.05);
+}
