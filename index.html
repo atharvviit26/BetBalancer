@@ -9,11 +9,12 @@
 <body>
     <div class="home">
         <div class="inputTable">
-            <h2>TeamA : <input type="number" value=2 id="rateA"> </h2>
-            <h2>TeamB : <input type="number" value=2 id="rateB"> </h2>   
-            <h2>USD : <input type="number" value=85 id="usd"> </h2> <br>   
-            <button id="submit" name="submit" class="submit" type="submit" onclick="clickFn()">submit</button>
-        
+            <h2>Team A: <input type="number" value="2" id="rateA"> </h2>
+            <h2>Team B: <input type="number" value="2" id="rateB"> </h2>   
+            <h2>USD: <input type="number" value="85" id="usd"> </h2> <br>   
+            <button id="submit" class="submit" type="submit" onclick="clickFn()">Submit</button>
+        </div>
+
         <br><br>
         <div class="outputTable">
             <h2>Summary Table</h2>
@@ -40,8 +41,13 @@
                 </tr>
             </table>
         </div>
+
+        <!-- Open Stake Button -->
+        <button class="stake-btn" onclick="window.open('https://stake.com/sports/cricket/india/indian-premier-league', '_blank')">
+            Add Bet
+        </button>
     </div>
-    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
